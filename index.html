@@ -10,16 +10,18 @@
 <body>
 
     <header>
-        <button>
-            <img src="assets/Menu mobile.svg" alt="">
-        </button>
-        
-        <img class="hide-tablet" src="assets/Logo-mobile.png" alt="">
-        <img class="hide-mobile" src="assets/Logo-tablet.png" alt="">
-
-        <button>
-            <img src="assets/search mobile.svg" alt="">
-        </button>
+        <div class="header__ajust">
+            <button>
+                <img src="assets/Menu mobile.svg" alt="">
+            </button>
+            
+            <img class="hide-tablet" src="assets/Logo-mobile.png" alt="">
+            <img class="hide-mobile" src="assets/Logo-tablet.png" alt="">
+    
+            <button>
+                <img src="assets/search mobile.svg" alt="">
+            </button>
+        </div>
     </header>
 
     <main>
@@ -105,8 +107,8 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-                <div>
-                    <button class="button--1">Mais</button>
+                <div class="trabalho__ajust--button">
+                    <button class="button--1 right">Mais</button>
                     <button class="button--2">Contrate-nos</button>
                 </div>
             </div>
@@ -114,9 +116,9 @@
 
         <section class="vantagens">
 
+            <h1 class="title">Vantagens</h1>
+
             <div>
-                <h1 class="title">Vantagens</h1>
-            
                 <div class="vantagens__cards">
                     <div class="vantagens__ajust item-1">
                         <div class="vantagens__card">
@@ -189,7 +191,7 @@
                     <div class="servicos__card__info">
                         <div class="servicos__card__title">
                             <strong class="desc__strong">Lorem ipsum</strong>
-                            <button class="button--2">></button>
+                            <button class="button--2"> <img src="assets/arrow-right-s-line.svg" alt=""> </button>
                         </div>
                         <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
@@ -200,7 +202,7 @@
                     <div class="servicos__card__info">
                         <div class="servicos__card__title">
                             <strong class="desc__strong">Lorem ipsum</strong>
-                            <button class="button--2">></button>
+                            <button class="button--2"> <img src="assets/arrow-right-s-line.svg" alt=""> </button>
                         </div>
                         <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
@@ -211,7 +213,7 @@
                     <div class="servicos__card__info">
                         <div class="servicos__card__title">
                             <strong class="desc__strong">Lorem ipsum</strong>
-                            <button class="button--2">></button>
+                            <button class="button--2"> <img src="assets/arrow-right-s-line.svg" alt=""></button>
                         </div>
                         <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
@@ -222,7 +224,7 @@
                     <div class="servicos__card__info">
                         <div class="servicos__card__title">
                             <strong class="desc__strong">Lorem ipsum</strong>
-                            <button class="button--2">></button>
+                            <button class="button--2"> <img src="assets/arrow-right-s-line.svg" alt=""> </button>
                         </div>
                         <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
@@ -233,7 +235,7 @@
                     <div class="servicos__card__info">
                         <div class="servicos__card__title">
                             <strong class="desc__strong">Lorem ipsum</strong>
-                            <button class="button--2">></button>
+                            <button class="button--2"> <img src="assets/arrow-right-s-line.svg" alt=""> </button>
                         </div>
                         <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
@@ -244,7 +246,7 @@
                     <div class="servicos__card__info">
                         <div class="servicos__card__title">
                             <strong class="desc__strong">Lorem ipsum</strong>
-                            <button class="button--2">></button>
+                            <button class="button--2"> <img src="assets/arrow-right-s-line.svg" alt=""> </button>
                         </div>
                         <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
@@ -259,10 +261,17 @@
             <h1 class="title">Envie sua aplicação</h1>
 
             <input type="text" placeholder="Nome*">
-            <select name="origem">
-                <option value="" disabled selected>Cidade</option>
-            </select>
-            <input type="date" name="datas">
+            <div class="desing__ajust">
+                <select name="origem">
+                    <option disabled selected>Cidade</option>
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Manaus">Manaus</option>
+                </select>
+            </div>
+            <div class="desing__ajust">
+                <input type="date" name="datas" value="2021-10-18">
+            </div>
             <input type="text" placeholder="Email*">
             <input type="text" placeholder="Mensagem">
             <div class="form__ajust">
@@ -278,7 +287,7 @@
         </form>
 
         <div class="footer__info">
-            <div class="hide-tablet">
+            <div class="hide-tablet footer1">
                 <img class="logo" src="assets/Logo2.png" alt="">
 
                 <ul>
@@ -293,8 +302,10 @@
 
                 <img src="assets/Social media.png" alt="">
             </div>
-            <div class="hide-mobile">
-                <img class="logo" src="assets/Logo2.png" alt="">
+            <div class="hide-mobile footer2">
+                <div class="logo">
+                    <img src="assets/Logo2.png" alt="">
+                </div>
 
                 <div class="footer__info__tablet">
                     <img src="assets/Social media.png" alt="">
