@@ -257,7 +257,7 @@ main {
     flex-direction: row;
 }
 
-.right {
+.trabalho__ajust--button button[class="button--1"] {
     margin-right: 15px;
 }
 
@@ -681,7 +681,7 @@ ul {
         padding-top: 15px;
     }
 
-    .trabalho__ajust--button button[class="button--1 right"] {
+    .trabalho__ajust--button button[class="button--1"] {
         font-weight: 700;
         font-size: 18px;
         line-height: 22px;
