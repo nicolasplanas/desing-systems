@@ -238,7 +238,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: -15px;
+    margin-right: 30px;
 }
 
 .trabalho__ajust {
@@ -271,7 +271,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: -15px;
+    margin-right: 40px;
     background-color: var(--fundo2);
     margin-top: 15px;
 }
@@ -308,10 +308,11 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 30px;
 }
 
 .servicos h1 {
-    margin-left: -150px;
+    margin-right: 150px;
 }
 
 .servicos__card img {
@@ -701,7 +702,7 @@ ul {
     }
 
     .vantagens h1 {
-        margin-left: -410px;
+        margin-right: 270px;
     }
 
     .item-1 {grid-area: item-1; width: 290px;}
@@ -756,7 +757,7 @@ ul {
     }
 
     .servicos h1 {
-        margin-left: -450px;
+        margin-right: 420px;
     }
 
     .card-1 {grid-area: card-1;}
