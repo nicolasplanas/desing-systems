@@ -5,7 +5,7 @@
     width: 320px;
     height: 407px;
     border-radius: 0px, 0px, 16px, 16px;
-    color: #FFFFFF;
+    background-color: var(--header);
     display: none;
     top: 0px;
     left: 0px;
@@ -14,7 +14,7 @@
 .x {
     cursor: pointer;
     border: 0px;
-    background-color: #FFFFFF;
+    background-color: var(--header);
 }
 
 .menu__margin {
@@ -39,11 +39,21 @@
     font-size: 14px;
     border: 1px solid #D3D7DB;
     border-radius: 8px;
+    background-color: transparent;
+    color: var(--texto);
+    padding: 13px 12px 13px 12px;
+}
+
+.dark {
+    color: #FFFFFF;
+    background-color: #30373E;
+    align-items: center;
+}
+
+.light {
+    color: #000000;
     background-color: #FFFFFF;
-    padding-top: 13px;
-    padding-right: 12px;
-    padding-bottom: 13px;
-    padding-left: 12px;
+    align-items: center;
 }
 
 @media (min-width: 768px) {
@@ -63,5 +73,11 @@
 
     .menu__buttons {
         margin-top: 66px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .hide-desktop {
+        display: none;
     }
 }

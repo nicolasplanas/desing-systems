@@ -5,7 +5,7 @@
     width: 100%;
     height: 64px;
     border-radius: 0px 0px 32px 32px;
-    background-color: #F8F5FF;
+    background-color: var(--header);
     display: none;
     flex-direction: row;
     align-items: center;
@@ -25,7 +25,7 @@
     width: 200px;
     height: 25px;
     cursor: pointer;
-    background-color: #F8F5FF;
+    background-color: var(--header);
     border: none;
     border-radius: 0px;
     border-bottom: 1px solid #ADB5BD;
@@ -34,7 +34,7 @@
 .pesquisa__margin button {
     cursor: pointer;
     border: none;
-    background-color: #F8F5FF;
+    background-color: var(--header);
 }
 
 ::placeholder {
@@ -47,7 +47,7 @@
 
 @media (min-width: 768px) {
     .pesquisa__container {
-        width: 100%;
+        height: 72px;
     }
 
     .pesquisa__margin {
@@ -55,5 +55,11 @@
         flex-direction: row;
         justify-content: end;
         width: 97%;
+    }
+}
+
+@media (min-width: 1920px) {
+    .pesquisa__container {
+        height: 100px;
     }
 }

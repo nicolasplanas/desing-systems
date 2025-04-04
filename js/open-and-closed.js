@@ -8,14 +8,6 @@ function closeMenu() {
     document.getElementById('header').style.display = 'flex'
 }
 
-function openMenu2() {
-    document.getElementById('menu').style.display = 'flex'
-}
-
-function closeMenu2() {
-    document.getElementById('menu').style.display = 'none'
-}
-
 function openSearch() {
     document.getElementById('search').style.display = 'flex'
     document.getElementById('header').style.display = 'none'
